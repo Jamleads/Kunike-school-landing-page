@@ -1,0 +1,146 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&display=swap');
+
+body {
+    font-family: 'Merienda', cursive;
+}
+li {
+    list-style: none;
+}
+.navbar-brand {
+    color: #050b6e;
+    font-weight: 700;
+    align-items: center;
+}
+.navbar-brand h3 {
+    line-height: 17px;
+}
+.navbar-brand small {
+    font-size: 15px;
+    color: red;
+    font-weight: 700;
+}
+.navbar-list ul {
+    gap: 40px;
+}
+.navbar-list a {
+    font-size: 25px;
+    font-weight: 700;
+    color: #050b6e;
+}
+.navbar-list li a:hover {
+    background: linear-gradient(
+        to top left,
+        #050b6e, 
+        #44ffb4);
+    color: white;
+    border-radius: 30px;
+}
+.showcase {
+    height: 100vh;
+    background-image: url(../img/Kunike-enviroment.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.showcase-content {
+    color: white;
+    margin-top: 80px;
+    background-color: #05246e7e;
+    width: 90%;
+    height: 90%;
+    /* padding: 50px; */
+}
+.showcase-content h1 {
+    font-size: 50px;
+    color: red;
+}
+.showcase-content button {
+    background-color: #050b6e;
+    border: none;
+    color: white;
+    border: 1px solid red;
+    margin-top: 20px;
+}
+
+.skill {
+    margin-top: -160px;
+    padding: 20px;
+}
+.card-body {
+    background-color: rgb(225, 227, 227);
+}
+.card-body h5 {
+    font-weight: 700;
+}
+.card-body h5 span,
+.facilities span {
+    color: red;
+}
+.card-body a {
+    background-color: #050b6e;
+    color: white;
+}
+.addmision-container,
+.international-container,
+.facilities-container {
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.addmision {
+    margin-top: 150px;
+    margin-bottom: 150px;
+    border: solid 2px red;
+    background-color: #050b6e;
+    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+    color: white;
+}
+.addmision-content {
+    margin-top: 50px;
+    width: 80%;
+}
+.addmision-content h1,
+.international .row h1,
+.international .row p span {
+    color: red;
+}
+.addmision-content a {
+    background-color: white;
+    color: #050b6e;
+}
+.counter {    
+    height: 70vh;
+    background: linear-gradient(
+        to top left,
+        rgba(128, 128, 128, 0.487), 
+        rgba(135, 107, 107, 0.307)),
+        url(../img/Kunike-shocase.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.counter-content {
+    margin-top: 80px;
+    color: red;
+}
+.footer {
+    background-color: #05246e7e;
+    border-top: #050b6e 5px solid;
+    color: white;
+}
+.footer-row {
+    margin-top: 100px;
+}
+
+@media screen and (max-width: 380px) {
+    .showcase-content {
+        width: 100%;
+    }
+    .counter {
+       height: 100vh;
+    }
+}
